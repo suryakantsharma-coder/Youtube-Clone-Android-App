@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "556801556993",
+    "project_id": "utube-97882",
+    "storage_bucket": "utube-97882.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556801556993:android:aabb2c0fecb02d3932b600",
+        "android_client_info": {
+          "package_name": "com.smart.utube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556801556993-kcfsrg2h6l3su3f8skekkr0nsq6hs82n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNsWI1sdji-cDdtSO6rT38fcSurC_hvz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556801556993-kcfsrg2h6l3su3f8skekkr0nsq6hs82n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556801556993:android:ead5f49210b9f1ac32b600",
+        "android_client_info": {
+          "package_name": "com.surya.utube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556801556993-kcfsrg2h6l3su3f8skekkr0nsq6hs82n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNsWI1sdji-cDdtSO6rT38fcSurC_hvz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556801556993-kcfsrg2h6l3su3f8skekkr0nsq6hs82n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

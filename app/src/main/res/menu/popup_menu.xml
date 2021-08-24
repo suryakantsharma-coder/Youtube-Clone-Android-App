@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/share_popMenu"
+        android:title="Share"/>
+
+    <item android:id="@+id/addPlaylist_popMenu"
+        android:title="Add playList"/>
+
+    <item android:id="@+id/DeleteChannel_popMenu"
+        android:title="UnDefine"/>
+
+</menu>

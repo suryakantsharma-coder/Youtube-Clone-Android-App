@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_color"
+    tools:context=".Activity.SettingActivity">
+
+    <include layout="@layout/home_app_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoIdSetUp_settting"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Set Related video ID"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:gravity="center|left"
+                android:padding="6dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/relatedVideoID_setting">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoId"
+                android:textColor="@color/white"
+                android:hint="Only One Video Id "
+                android:textColorHint="@color/white"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/button_set"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/previoius_buttondesign"
+                android:layout_gravity="center|right"
+                android:gravity="center"
+                android:text="set"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/videoId" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExploreSetUp_settting"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:weightSum="4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Disable Explore Section"
+                android:textColor="@color/white"
+                android:layout_weight="4"
+                android:textSize="16dp"
+                android:gravity="center|left"
+                android:padding="6dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:id="@+id/exploreSwitch_setting"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

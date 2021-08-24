@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.smart.utube.Fragments.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.smart.utube.Fragments.playlistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.smart.utube.Fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+</navigation>
